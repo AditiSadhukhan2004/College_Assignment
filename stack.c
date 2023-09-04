@@ -24,10 +24,13 @@ void pop()
 void disp()
 {
 	int i;
+	printf("The elements are:\n");
 	for(i=top;i>=0;i--)
 	{
 		printf("%d ",stack[i]);
 	}
+	printf("\nPEEK IS %d\n",stack[top]);
+	
 }
 void main()
 {
